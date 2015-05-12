@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.hilling.jdbc</groupId>
-    <artifactId>cleanup</artifactId>
+    <artifactId>jdbc-cleanup</artifactId>
     <version>0.9.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <url>https://github.com/guhilling/jdbc-cleanup</url>
     <inceptionYear>2015</inceptionYear>
-    <name>JDBC Cleanup</name>
+    <name>JDBC de.hilling.jdbc.cleanup.Cleanup</name>
     <description>jdbc library for deleting data from any database with jdbc driver</description>
 
     <properties>
@@ -85,6 +85,12 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-jdk14</artifactId>
             <version>${slf4j.verision}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.182</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
