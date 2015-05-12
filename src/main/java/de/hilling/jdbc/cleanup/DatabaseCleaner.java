@@ -18,6 +18,16 @@ public class DatabaseCleaner {
     public static final String USER_TABLE_IDENTIFIER = "TABLE";
 
     public void run(Connection connection) throws SQLException {
+        ConstraintDisabler constraintDisabler = ConstraintDisablerFactory.create(new ConnectionInfo(connection));
+        if(constraintDisabler == null) {
+        } else {
+            constraintDisabler.disableConstraints();
+            deleteTableContents(connection);
+            constraintDisabler.enableConstraints();
+        }
+    }
+
+    private void deleteTableContents(Connection connection) throws SQLException {
         DatabaseMetaData metaData = connection.getMetaData();
         ResultSet tables = metaData.getTables(null, null, null, new String[]{USER_TABLE_IDENTIFIER});
         while (tables.next()) {
