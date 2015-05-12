@@ -1,0 +1,12 @@
+language: java
+jdk:
+  - oraclejdk7
+  - oraclejdk8
+
+env:
+  - CDI=cdi-1.1
+  - CDI=cdi-1.2
+  - CDI=cdi-2.0
+
+script:
+  - mvn test -P${CDI}
