@@ -10,7 +10,7 @@ public interface ConstraintDisabler {
     void disableConstraints();
 
     /**
-     * After this call all constraints previously disable shall be
+     * After this call all constraints will be enabled.
      */
     void enableConstraints();
 }
