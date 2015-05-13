@@ -1,7 +1,7 @@
 package de.hilling.jdbc.cleanup;
 
 /**
- * Disable and reenable constraints for certain db types.
+ * Disable and enable constraints for certain db types.
  */
 public interface ConstraintDisabler {
     /**
@@ -11,6 +11,10 @@ public interface ConstraintDisabler {
 
     /**
      * After this call all constraints will be enabled.
+     * <p>
+     *     Note that all constraints will be enabled, not only those that where disabled
+     *     in a previous call to {@link #disableConstraints()}.
+     * </p>
      */
     void enableConstraints();
 }
