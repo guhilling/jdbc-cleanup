@@ -4,7 +4,7 @@
 
     <groupId>de.hilling.jdbc</groupId>
     <artifactId>jdbc-cleanup</artifactId>
-    <version>0.9.1-SNAPSHOT</version>
+    <version>1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <url>https://github.com/guhilling/jdbc-cleanup</url>
     <inceptionYear>2015</inceptionYear>
