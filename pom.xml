@@ -20,7 +20,7 @@
 
     <scm>
         <connection>scm:git:https://github.com/guhilling/jdbc-cleanup.git</connection>
-        <developerConnection>scm:git:https://github.com/guhilling/jdbc-cleanup.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:guhilling/jdbc-cleanup.git</developerConnection>
         <url>https://github.com/guhilling/jdbc-cleanup.git</url>
         <tag>HEAD</tag>
     </scm>
