@@ -1,16 +1,16 @@
 {
-  "tagName": "MULTI_MODULE_RELEASE-2017-04-08-174349",
+  "tagName": "MULTI_MODULE_RELEASE-2017-04-08-181810",
   "modules": [
     {
-      "releaseDate": "2017-04-08T19:43:49.059+02:00[Europe/Berlin]",
-      "releaseTag": "MULTI_MODULE_RELEASE-2017-04-08-174349",
+      "releaseDate": "2017-04-08T20:18:10.001+02:00[Europe/Berlin]",
+      "releaseTag": "MULTI_MODULE_RELEASE-2017-04-08-181810",
       "artifact": {
         "groupId": "de.hilling.jdbc",
         "artifactId": "jdbc-cleanup"
       },
       "version": {
         "majorVersion": 1,
-        "minorVersion": 6
+        "minorVersion": 7
       }
     }
   ]
