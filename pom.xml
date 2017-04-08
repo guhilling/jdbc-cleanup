@@ -126,6 +126,7 @@
                 <artifactId>smart-release-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
+					<pushTags>true</pushTags>
                     <releaseGoals>
                         <releaseGoal>clean</releaseGoal>
                         <releaseGoal>deploy</releaseGoal>
