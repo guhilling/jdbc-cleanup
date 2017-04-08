@@ -124,7 +124,7 @@
             <plugin>
                 <groupId>de.hilling.maven.release</groupId>
                 <artifactId>smart-release-plugin</artifactId>
-                <version>3.1</version>
+                <version>3-SNAPSHOT</version>
                 <configuration>
 					<pushTags>true</pushTags>
                     <releaseGoals>
