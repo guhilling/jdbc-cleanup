@@ -116,6 +116,7 @@
                     <testGoals>
                         <testGoal>clean</testGoal>
                         <testGoal>package</testGoal>
+                        <testGoal>-Dmaven.javadoc.skip=true</testGoal>
                     </testGoals>
                     <releaseGoals>
                         <releaseGoal>deploy</releaseGoal>
