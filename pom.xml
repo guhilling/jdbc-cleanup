@@ -113,9 +113,11 @@
                 <artifactId>smart-release-plugin</artifactId>
                 <version>3-SNAPSHOT</version>
                 <configuration>
-					<pushTags>true</pushTags>
+                    <testGoals>
+                        <testGoal>clean</testGoal>
+                        <testGoal>package</testGoal>
+                    </testGoals>
                     <releaseGoals>
-                        <releaseGoal>clean</releaseGoal>
                         <releaseGoal>deploy</releaseGoal>
                     </releaseGoals>
                     <releaseProfiles>
