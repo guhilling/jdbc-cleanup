@@ -1,7 +1,9 @@
-language: java
+sudo: false
+dist: trusty
+group: edge
+
 jdk:
-  - oraclejdk7
-  - oraclejdk8
+  - openjdk11
 
 script:
   - mvn test
